@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>biodata </title>
+</head>
+<body>
+<h1 align=center>bio data</h1>
+<img src="C:\Users\harik\OneDrive\Pictures\ARMS pic.jpg"alt="my image"width="100"height="100" align=right>
+<body style="background-color:powderblue;">
+<p align=left>name<br>adress<br>phone<br>email<br></p><hr>
+<p>object:jhtrieortmvngjskalswwwpoiqmncx</p>
+<h5>education qualification</h5>
+<style>
+table,th,td{
+   border:1px solid black;
+}
+</style>
+
+<table>
+<tr>
+  <th>degree</th>
+  <th>school/university</th>
+  <th>year of passing</th>
+  <th>marks1</th>
+</tr>
+<tr>
+   <td>inter</td>
+   <td>chaithanya</td>
+   <td>2021</td>
+   <td>94</td>
+</tr>
+<tr>
+   <td>10th</td>
+   <td>chaithanya</td>
+   <td>2020</td>
+   <td>97</td>
+</tr>
+<table>
