@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    
+    <title>project2</title>
+</head>
+
+
+<?php
+
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $database = "flowerngifts";
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') 
+{
+    $username = $_POST['username'];
+    $pass = $_POST['password'];
+    
+    $con = mysqli_connect($servername, $username, $password, $database);
+    $sql = "INSERT INTO project2 (username, password) VALUES ('$username', '$pass')";
+
+    $result=mysqli_query($con, $sql);
+
+    if($result)
+    	echo " Successfully inserted";
+    else
+        echo " Not connected Successfully";
+ }
+
+?>
+<body>
+
+  <form action="/flower/flowerphp.php" method="post">
+  <br><br>  username:
+  <input type="text" id="username" name="username" ><br><br>	
+  Password:
+  <input type="text" id="password" name="password" ><br><br>
+  <input type="submit" value="login">
+
+  </form> 
+
+</body>
+</html>
