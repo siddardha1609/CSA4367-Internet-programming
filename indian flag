@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>INDIAN FLAG</title>
+</head>
+<style>
+
+#div1{
+	background-color:orange;
+	height:150px;
+}
+#div2{
+
+	background-image:url("middle.jpg");
+	height:300px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+#div3{
+	background-color:Green;
+	height:150px;
+}
+</style>
+
+
+<body>
+	<div id="div1" class="colored-div"></div>
+	<div id="div2" class="colored-div"></div>
+	<div id="div3" class="colored-div"></div>
+</body>
+
+</html>
