@@ -1,0 +1,360 @@
+Login page:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> online shopping </title>
+<style>
+body{
+	background-image:url(p1.jpeg);
+	background-repeat:no-repeat;
+	height:100vh;
+	margin:1;
+	background-position:center;
+	background-size:cover;
+	
+}h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+p {
+	text-align:right;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+            <h2>Login</h2>
+            <form action="flowerntlogin.html" method="post"> 
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <a href="flowerntlogin.html"><button>login</button></button></a>
+            </form>
+            </center>
+        </section>
+</body>
+</html>
+
+Page-2:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page2</title>
+<style>
+body{
+	background-image:url(p2.jpeg);
+	background-repeat:no-repeat;
+	height:100vh;
+	margin:1;
+	background-position:center;
+	background-size:cover;
+	
+}h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+p {
+	text-align:right;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+            <h1>Gifts and flowers</h1>
+            <form action="flow3" method="post"> 
+                <label for="flow3"></label>
+
+
+<label for="">Gifts:</label>
+
+<select name="" id="select">
+  <option value="select">select</option>
+  <option value="file:///C:/xampp/htdocs/flower/flowp3.html">perfumes</option>
+  <option value="dining sets">dining sets</option>
+  <option value="toys">toys</option>
+  <option value="cookware">cookware</option>
+</select>
+<label for="">flowers:</label>
+
+<select name="select" id="select">
+  <option value="select">select</option>
+  <option value="roses">roses</option>
+  <option value="rose bouquets">rose bouquets</option>
+  <option value="lavenders">lavenders</option>
+  <option value="croton flowers">croton flowers</option>
+</select>
+</form>
+ </center>
+<script>
+	document.getElementById("select").addEventListener
+		("change",function()
+			{
+				var x= this.value;
+				if(x)
+				{ window.location.href=x;
+					}	}
+		)
+</script>
+</body>
+</html>
+
+page-3:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page3</title>
+<style>
+h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+            <h1>Perfumes</h1>
+            <form action="addtocartp1" method="post"> 
+                <label for="addtocartp1"></label>
+</form>
+            </center>
+        </section>
+<body style="background-color:#FF69B4;">
+<img src="C:\xampp\htdocs\flower\per1.png" width="400" height="200" align=Left><br><br><br>
+<br><br><br><br><br>
+<br><br><br>
+<p> COCO Perfume </p>
+<p> The most fragnance ever <p>
+<a href="addtocartp1.html"><button>add to cart</button></button></a><br><br>
+<button onclick="myFunction()">wishlist</button>
+<script>
+function myFunction() {
+  alert("wishlisted succesfully!");
+}
+</script>
+<br><br>
+<img src="C:\xampp\htdocs\flower\per2.jpeg" width="300" height="300" align=Left><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br>
+<p> CHANEL Perfume </p>
+<p> enjoy along with the perfume <p>
+<button onclick="myFunction()">Add to cart</button>
+<script>
+function myFunction() {
+  alert("Added to cart succesfully!");
+}
+</script>
+<br><br>
+<button onclick="myFunction()">wishlist</button>
+<script>
+function myFunction() {
+  alert("wishlisted succesfully!");
+}
+</script>
+</body>
+</html>
+
+page-4 (add to cart):
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page4</title>
+<style>
+h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+            <h1>Cart Items</h1>
+            <form action="placeorderp1" method="post"> 
+                <label for="placeorderp1"></label>
+</form>
+            </center>
+        </section>
+<body style="background-color:#FFF8DC;">
+<img src="C:\xampp\htdocs\flower\per1.png" width="400" height="200" align=Left><br><br><br>
+<br><br><br><br><br>
+<br><br><br>
+<p> COCO Perfume </p>
+<p> The most fragnance ever <p>
+<label for="">Qty</label>
+
+<select name="" id="select">
+  <option value="select">select</option>
+  <option value="">Qty1</option>
+  <option value="">Qty2</option>
+  <option value="">Qty3</option>
+  <option value="">Qty4</option>
+</select>
+<p>Total MRP: 1999</p>
+<p>Discount MRP:999</p>
+<p>Convenience fee:100</p>
+<p>Total Amount:1099</p>
+<a href="placeorderp1.html"><button>Place Order</button></button></a><br><br>
+</body>
+</html>
+
+page-5(address)
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page5</title>
+<style>
+h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+            <h1>Address</h1>
+            <form action="p1success" method="post"> 
+                <label for="p1success"></label>
+</form>
+            </center>
+        </section>
+<body style="background-color:#D8BFD8;">
+<p><label for="address">address:</label></p>
+ <textarea id="text" name="address" rows="4" cols="50"> </textarea>
+<br>
+<a href="p1success.html"><button>submit</button></button></a>
+<a href="placeorderp1.html"><button>reset</button></button></a>
+</body>
+</html>
+
+page-6 payment
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page6</title>
+<style>
+h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+            <h1>Payment</h1>
+            <form action="p1success" method="post"> 
+                <label for="p1success"></label>
+</form>
+            </center>
+        </section>
+<body style="background-color:#D8BFD8;">
+<input type="radio" id="Cash on delivery" name="Cash_on_delivery" value="Cash on delivery">
+  <label for="Cash on delivery">Cash on delivery</label><br>
+<p><b>Other payment options<b></p>
+<label for="">UPI Payments</label>
+
+<select name="select" id="select">
+  <option value="select">select</option>
+  <option value="phonepe">phonepe</option>
+  <option value="Gpay">Gpay</option>
+</select>
+<br><br>
+<div id="captcha" class="form_div">
+                <div class="preview"></div>
+                <div class="captcha_form"> 
+                    <input type="text" id="captcha_form" class="form_input_captcha" placeholder=" ">
+                    <label class="form_label_captcha">Enter Captcha</label>
+                    <button class="captcha_refersh">
+                        <i class="fa fa-refresh"></i>
+                    </button>
+                </div>
+            </div>
+    </div>
+<table>
+<th>
+<select name="next" id="next">
+  <option value="file:///C:/xampp/htdocs/flower/fdonep1.html">next</option>
+  <option value="file:///C:/xampp/htdocs/flower/fdonep1.html">submit</option>
+  <option value="file:///C:/xampp/htdocs/flower/p1success.html">reset</option>
+</select>
+</th>
+</table>
+<script>
+	document.getElementById("next").addEventListener
+		("change",function()
+			{
+				var x= this.value;
+				if(x)
+				{ window.location.href=x;
+					}	}
+		)
+</script>
+</body>
+</html>
+
+page-7 success
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page7</title>
+<style>
+body{
+	background-image:url(p1com.png);
+	background-repeat:no-repeat;
+	height:100vh;
+	margin:1;
+	background-position:center;
+	background-size:cover;
+	
+}h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: Center;
+	color:black;
+}h2 {
+	style: Times New Roman;
+	size: 10px;
+	text-align: center;
+	color:red;
+}p {
+	text-align:center;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+            <h1>Order placed succesfully!!</h1>
+            <form action="p1dashboard" method="post"> 
+                <label for="p1dashboard"></label>
+</form>
+ </center>
+<hr>
+<h2> For Details<h2>
+<p><a href="file:///C:/xampp/htdocs/flower/p1dashboard.html">Dashboard</a><br>
+<a href="file:///C:/xampp/htdocs/flower/flowerntlogin.html">Continue Shopping</a>
+</body>
+</html>
+
+create dashboard and continue shopping
