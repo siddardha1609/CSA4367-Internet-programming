@@ -1,0 +1,30 @@
+You can create a cookie in PHP with the specified conditions using the setcookie() function. To create a cookie named "user" with the value "Uday" and an expiration time of 15 hours, you can use the following PHP program:
+
+php
+<?php
+// Define the cookie name and value
+$cookieName = "user";
+$cookieValue = "Uday";
+
+// Calculate the expiration time (15 hours from the current time)
+$expirationTime = time() + (15 * 3600); // 1 hour = 3600 seconds
+
+// Create the cookie
+setcookie($cookieName, $cookieValue, $expirationTime);
+
+// Display a message to indicate that the cookie has been set
+echo "Cookie '$cookieName' has been set with the value '$cookieValue' and will expire in 15 hours.";
+?>
+
+
+In this program:
+
+1. We define the cookie name as "user" and the value as "Uday."
+
+2. We calculate the expiration time by adding 15 hours (in seconds) to the current timestamp, using the time() function.
+
+3. We use the setcookie() function to create the cookie with the specified name, value, and expiration time.
+
+4. Finally, we display a message to confirm that the cookie has been set with the specified conditions.
+
+This PHP program will create a cookie named "user" with the value "Uday," and it will expire after 15 hours from the time it was set.
