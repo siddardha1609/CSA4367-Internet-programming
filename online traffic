@@ -1,0 +1,258 @@
+Main page:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> trafficsquad </title>
+<style>
+body{
+	background-color:cyan;	
+}h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+p {
+	text-align:Center;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+	    <h1> Online College Traffic Squad </h1>
+<hr>
+<br>
+            <h2>Login for further proceeding</h2>
+<br>
+            <form action="reguser.html" method="post"> 
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="Id">Id:</label>
+		<input type="text" id="Id" name="Id" required><br><br>
+                <label for="password">password:</label>
+                <input type="text" id="password" name="password" required><br><br>
+		<a href="reguser.html"><button>login</button></button></a>
+            </form>
+            </center>
+        </section>
+</body>
+<hr>
+<p> Not having account? <a href="signup.html">Sign Up</a>
+</html>
+
+page-2:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> trafficsquad1 </title>
+<style>
+body{
+	background-color:white;	
+}h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+h2 {
+	style: Times New Roman;
+	size: 50px;
+	text-align: center;
+	color:black;
+}
+p {
+	text-align:Right;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+	    <h1> REGISTER </h1>
+<hr>
+<br>
+            <form action="regpage.html" method="post"> 
+                <label for="firstname">firstname:</label>
+                <input type="text" id="firstname" name="firstname" required><br><br>
+		<label for="lastname">lastname:</label>
+                <input type="text" id="lastname" name="lastname" required><br><br>
+                <label for="Id">Id:</label>
+		<input type="text" id="Id" name="Id" required><br><br>
+		<a href="traffic4.html"><button>login</button></button></a>
+            </form>
+            </center>
+        </section>
+</body>
+<hr>
+<h2> <b>further Queries<b></h2>
+ <a href="viewc5.html">view Challan</a><br>
+ <a href="viewp7.html">police</a><br>
+ <a href="admin8.html">Admin</a><br>
+</html>
+
+page-3: view challan
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> viewc5 </title>
+<style>
+body{
+	background-color:white;	
+}h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+h2 {
+	style: Times New Roman;
+	size: 50px;
+	text-align: center;
+	color:black;
+}
+p {
+	text-align:Right;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+	    <h1> View Challan </h1>
+<hr>
+<br>
+            <form action="viewf6.html" method="post"> 
+                <label for="Challan no">Challan no:</label>
+                <input type="text" id="Challan no" name="Challan no" required><br><br>
+                <br><br>
+		<a href="viewf6.html"><button>login</button></button></a>
+            </form>
+            </center>
+        </section>
+</body>
+</html>
+
+page-4:view filed
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> traffic6 </title>
+<style>
+body{
+	background-color:white;	
+}h1 {
+	style: Times New Roman;
+	size: 20px;
+	text-align: center;
+	color:black;
+}
+p {
+	text-align:Left;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+	    <h1> Case filed queries</h1>
+<hr>
+<p><b>
+Challan no:123456<br><br>
+Filed by: Mr.X<br><br>
+Rider name: Mr:Y<br><br>
+Date Filed: 02-05-2005<br><br>
+Case cleared: 07-05-2005<br><br>
+Amount paid: Rs.100<br><br>
+Filed status: Cleared<br><br>
+<b></p>
+</form>
+</center>
+</section>
+</body>
+
+page-5 ppage
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>traffic7</title>
+<style>
+body{
+	background-color:white;	
+}h1 {
+	style: Times New Roman;
+	size: 500px;
+	text-align: center;
+	color:Blue;
+}
+p {
+	text-align:Right;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+	    <h1> WELCOME!! </h1>
+<hr>
+<br>
+            <form action="ppage.html" method="post"> 
+                <label for="username">username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+		<label for="Id">Id:</label>
+                <input type="text" id="Id" name="Id" required><br><br>
+		<label for="password"> enter password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <br><br>
+		<a href="ppage.html"><button>login</button></button></a>
+            </form>
+            </center>
+        </section>
+</body>
+</html>
+
+page-6 view admin
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>admin</title>
+<style>
+body{
+	background-color:white;	
+}h1 {
+	style: Times New Roman;
+	size: 500px;
+	text-align: center;
+	color:Blue;
+}
+p {
+	text-align:Right;
+	color:black;
+}
+</style>
+</head>
+<main>
+        <section id="login"><center>
+	    <h1> HELLO ADMIN!! </h1>
+<hr>
+<br>
+            <form action="ppage.html" method="post"> 
+                <label for="username">username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+		<label for="Id">Id:</label>
+                <input type="text" id="Id" name="Id" required><br><br>
+		<label for="password"> enter password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <br><br>
+		<a href="aadmin.html"><button>login</button></button></a>
+            </form>
+            </center>
+        </section>
+</body>
+</html>
